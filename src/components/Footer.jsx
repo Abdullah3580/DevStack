@@ -1,13 +1,10 @@
 const LINK_GROUPS = [
-  { title: 'PRODUCT', links: ['Home', 'Technologies', 'Projects'] },
-  { title: 'COMPANY', links: ['About', 'Contact', 'Careers'] },
-  { title: 'LEGAL', links: ['Privacy Policy', 'Terms of Service'] },
+  { title: 'PRODUCT', links: ['Home', 'Technologies', 'About'] },
 ];
-
 export default function Footer() {
   return (
     <footer id="contact" className="border-t border-[var(--color-line)] bg-white">
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 py-14 grid gap-10 md:grid-cols-[1.4fr_repeat(3,1fr)]">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8 py-14 grid gap-10 md:grid-cols-[1.4fr_1fr]">
         <div className="max-w-xs">
           <a href="#top">
             <img src="/assets/logo-text.png" alt="Dev Stack" className="h-7 w-auto" />
