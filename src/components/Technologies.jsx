@@ -10,7 +10,7 @@ export default function Technologies() {
 
   useEffect(() => {
     setLoading(true);
-    fetch('/technologies.json')
+    fetch(`${import.meta.env.BASE_URL}technologies.json`)
       .then((res) => res.json())
       .then((data) => setTechs(data))
       .catch(() => toast.error('Could not load technologies.'))

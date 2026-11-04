@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-5 sm:px-8 py-14 grid gap-10 md:grid-cols-[1.4fr_1fr]">
         <div className="max-w-xs">
           <a href="#top">
-            <img src="/assets/logo-text.png" alt="Dev Stack" className="h-7 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}assets/logo-text.png`} alt="Dev Stack" className="h-7 w-auto" />
           </a>
           <p className="mt-4 text-sm text-[var(--color-muted)] leading-relaxed">
             Curated tools, technologies, and resources for developers building modern software.

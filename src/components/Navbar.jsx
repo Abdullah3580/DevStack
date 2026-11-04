@@ -38,7 +38,7 @@ export default function Navbar() {
         {/* Logo: desktop left, mobile center */}
         <a href="#top" className="md:order-none order-2 md:mx-0 mx-auto">
           <img
-            src="/assets/logo-text.png"
+            src={`${import.meta.env.BASE_URL}assets/logo-text.png`}
             alt="Dev Stack"
             className="h-7 w-auto"
           />
